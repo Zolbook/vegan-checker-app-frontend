@@ -8,11 +8,41 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "resolutions": {
+    "react-devtools-core": "~4.25.0"
+  },
+  
   "dependencies": {
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/stack": "^6.3.16",
+    "axios": "^1.4.0",
+    "buffer": "^6.0.3",
     "expo": "~48.0.15",
+    "expo-barcode-scanner": "~12.3.2",
+    "expo-camera": "~13.2.1",
+    "expo-gl": "^12.4.0",
+    "expo-image-editor": "^1.7.1",
+    "expo-image-manipulator": "~11.1.1",
+    "expo-image-picker": "8.0.0",
+    "expo-location": "~15.1.1",
+    "expo-permissions": "~14.1.1",
+    "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",
+    "expo-updates": "~0.16.4",
     "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react-native": "0.71.3",
+    "react-native-camera": "^4.2.1",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-image-crop-picker": "^0.39.0",
+    "react-native-image-crop-tools": "^1.6.4",
+    "react-native-ocr": "^0.1.6",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-svg": "13.4.0",
+    "react-native-tesseract-ocr": "^2.0.3",
+    "react-native-unimodules": "^0.14.10",
+    "react-native-vector-icons": "^9.2.0",
+    "recoil": "^0.7.7",
+    "unimodules-permissions-interface": "^6.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

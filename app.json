@@ -11,6 +11,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "packagerOpts": {
+      "sourceExts": ["js", "jsx", "ts", "tsx", "json"],
+      "hostType": "localhost",
+      "lanType": "ip",
+      "dev": true,
+      "minify": false,
+      "useReactNative": true,
+      "port": 19001
+    },
+    
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -26,5 +36,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }
-  }
+  },
+  "debuggerHost": "localhost:19001"
+
 }
